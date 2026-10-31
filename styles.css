@@ -874,3 +874,10 @@ body {
     font-size: 11px;
     color: #8E9C8C;
   }
+
+ @media (max-width: 720px) {
+    .promos .container { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr 1fr 1fr; row-gap: 24px; }
+    .footer-brand { grid-column: 1 / -1; }
+    .footer-bottom { flex-direction: column; gap: 6px; }
+  }
