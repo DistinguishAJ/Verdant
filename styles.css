@@ -644,7 +644,6 @@ body {
 
 .container{
   width: 100%;
-  max-width: 1000px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -856,6 +855,7 @@ body {
 .footer-col li{
   font-size: 12.5ppx;
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
 .footer-col ul li a{
